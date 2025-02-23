@@ -2,53 +2,38 @@
 
 This repository contains multiple projects related to LangChain, a framework for developing applications powered by language models. Each project serves a different purpose, ranging from Q&A systems to retrieval-augmented generation (RAG) implementations and SQL-based text processing.
 
-rahulvenkat207-langchain_projects/
-├── README.md                  # This file
-├── MathsGPT/                   # Math-focused GPT-based application
-│   ├── about.txt
-│   ├── app.py
-│   └── requirements.txt
-├── QandA/                      # Question & Answer chatbot implementation
-│   ├── README.md
-│   ├── app.py
-│   └── requirements.txt
-├── RAG/                        # Retrieval-Augmented Generation project
-│   ├── README.md
-│   ├── app.py
-│   ├── requirements.txt
-│   └── research_papers/         # Folder containing research papers for RAG
-├── RAG.1/                      # Another RAG implementation
-│   ├── README.md
-│   ├── app.py
-│   └── requirements.txt
-├── SQLTXT/                     # SQL-based text processing project
-│   ├── README.md
-│   ├── app.py
-│   ├── requirements.txt
-│   ├── sqlite.py
-│   └── student.db
-├── Text_Summarization/         # Text summarization using LLMs
-│   ├── 1-.ipynb
-│   ├── about.txt
-│   └── requirements.txt
-├── codellama/                  # Code generation using CodeLlama
-│   ├── README.md
-│   ├── app.py
-│   └── requirements.txt
-├── conversationalbot/          # Conversational Q&A chatbot
-│   ├── CONVERSIAONALQandA.ipynb
-│   └── about.txt
-├── langchain/                  # LangChain core experiments
-│   ├── GettingStarted.ipynb
-│   ├── about.txt
-│   ├── dataingestion.ipynb
-│   ├── hugembeddings.ipynb
-│   ├── ollamaembedding.ipynb
-│   ├── requirements.txt
-│   ├── textsplitter.ipynb
-│   ├── vectorsotes.ipynb
-│   └── virat.txt
-└── simepleapp/                 # Basic LangChain application
-    ├── README.md
-    ├── app.py
-    └── requirments.txt
+1. MathsGPT
+
+A GPT-based system focused on solving mathematical problems.
+
+2. QandA
+
+A simple question-answering system using LangChain.
+
+3. RAG & RAG.1
+
+Implementations of Retrieval-Augmented Generation using research papers.
+
+4. SQLTXT
+
+Uses SQL databases for text processing and retrieval.
+
+5. Text Summarization
+
+A notebook-based project for summarizing text using LLMs.
+
+6. CodeLlama
+
+Uses CodeLlama for code generation and analysis.
+
+7. ConversationalBot
+
+A conversational chatbot that answers queries interactively.
+
+8. LangChain Experiments
+
+Various experiments related to embeddings, data ingestion, and vector storage.
+
+9. SimpleApp
+
+A basic LangChain application to demonstrate simple functionality.
